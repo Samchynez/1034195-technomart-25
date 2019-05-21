@@ -12,7 +12,7 @@
     <div>
       <nav>
         <a href="index.html">
-            <img src="img/svg-technomart/logo-technomart.svg" width="150" height="100" alt="Логотип магазина 'Техномарт'">
+          <img src="img/svg-technomart/logo-technomart.svg" width="150" height="100" alt="Логотип магазина 'Техномарт'">
         </a>
         <div>Поиск</div>
         <ul>
@@ -36,8 +36,8 @@
         <div>
           User Name
         </div>
-          <div><a href="index.html"><img src="exit.jpg" alt="Выход"></a></div>
-          <ul>
+        <div><a href="index.html"><img src="exit.jpg" alt="Выход"></a></div>
+        <ul>
           <li><a href="my-orders.html">Мои заказы</a></li>
           <li><a href="my-cabinet.html">Личный кабинет</a></li>
         </ul>
@@ -60,7 +60,7 @@
   </header>
   <main>
     <nav>
-    <ul id="breadcrumbs">
+      <ul id="breadcrumbs">
         <li><a href="index.html"><img src="#" alt="Главная страница"></a></li>
         <li><a href="catalogue.html">КАТАЛОГ</a></li>
         <li><a href="instrument.html">ИНСТРУМЕНТ</a></li>
@@ -69,22 +69,29 @@
     </nav>
     <h1>ПЕРФОРАТОРЫ</h1>
     <section>
-      <h3>ПРОИЗВОДИТЕЛИ:</h3>
-      <ul>
-        <li>BOSCH</li>
-        <li>ИНТЕРСКОЛ</li>
-        <li>MAKITA</li>
-        <li>DEWALT</li>
-        <li>HITACHI</li>
-      </ul>
-      <h3>ПИТАНИЕ:</h3>
-      <ul>
-        <li>АККУМУЛЯТОРНЫЕ</li>
-        <li>СЕТЕВЫЕ</li>
-      </ul>
+      <h2 class="visually-hidden">Фильтр</h2>
+      <form class="#" action="#" method="get">
+      <fieldset>
+       <legend>ПРОИЗВОДИТЕЛИ:</legend>
+       <ul>
+        <li><input id="BOSCH" type="checkbox" name="BOSCH" /><label for="BOSCH">BOSCH</label></li>
+        <li><input id="ИНТЕРСКОЛ" type="checkbox" name="ИНТЕРСКОЛ" /><label for="ИНТЕРСКОЛ">ИНТЕРСКОЛ</label></li>
+        <li><input id="MAKITA" type="checkbox" name="MAKITA" /><label for="MAKITA">MAKITA</label></li>
+        <li><input id="DEWALT" type="checkbox" name="DEWALT" /><label for="DEWALT">DEWALT</label></li>
+        <li><input id="HITACHI" type="checkbox" name="HITACHI" /><label for="HITACHI">HITACHI</label></li>
+       </ul>
+      </fieldset>
+      <fieldset>
+       <legend>ПИТАНИЕ:</legend>
+       <ul>
+        <li><input id="АККУМУЛЯТОРНЫЕ" type="radio" name="types"  /><label for="АККУМУЛЯТОРНЫЕ">АККУМУЛЯТОРНЫЕ</label></li>
+        <li><input id="СЕТЕВЫЕ" type="radio" name="types"  /><label for="СЕТЕВЫЕ">СЕТЕВЫЕ</label></li>
+       </ul>
+      </fieldset>
       <div>
-        <button type="button">ПОКАЗАТЬ</button>
+        <button type="submit">ПОКАЗАТЬ</button>
       </div>
+    </form>
     </section>
     <div>
       <ul>
@@ -191,6 +198,16 @@
       <a href="https://htmlacademy.ru">HTML Academy</a>
     </p>
   </footer>
+  <form class="#" action="#" method="post">
+    <button type="button">#</button> <!--Кнопка закрыть-->
+    <p>
+      Товар добавлен в корзину!
+    </p>
+<ul>
+  <li><a href="Order.html">Оформить заказ</a></li>
+  <li><a href="catalogue.html">Продолжить покупки</a></li>
+</ul>
+  </form>
 </body>
 
 </html>
