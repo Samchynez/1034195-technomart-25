@@ -13,19 +13,19 @@
 
   <header class="header-color">
     <div class="top-block">
-      <nav class="top-navigation">
+      <nav>
         <a class="logo" href="index.html">
           <img src="img/svg-technomart/logo-technomart.svg" width="137" height="22" alt="Логотип магазина 'Техномарт'">
         </a>
         <form action="#" method="get">
-          <input type="search" name="search" placeholder="Поиск:">
+          <input class="search" type="search" name="search" placeholder="Поиск:">
           <button type="submit"><img src="img/svg-technomart/icon-search.svg" alt="Поиск"></button>
         </form>
         <ul class="list-style">
-          <li><a href="pin.html">Закладки</a></li>
-          <li><a href="cart.html">Корзина</a></li>
+          <li><a class="pin" href="pin.html">Закладки</a></li>
+          <li><a class="cart" href="cart.html">Корзина</a></li>
           <li>
-            <a class="order" href="order.html">Оформить заказ</a>
+            <a class="order order-text" href="order.html">Оформить заказ</a>
           </li>
         </ul>
       </nav>
@@ -58,73 +58,75 @@
     </nav>
   </header>
   <main>
-    <section class="news">
-      <h2>Компания 'Техномарт'</h2>
-      <p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и<br>
+    <section>
+      <h2 class="about-us">Компания «Техномарт»</h2>
+      <p class="about-us-text">Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и<br>
 
         Мы можем доставить ваш товар в самые отдаленные точки России!<br>
         Техномарт работает со многими транспортными компаниями:<br>
       </p>
-      <ul>
+      <ul class="pluses">
         <li class="delivery-companies">Деловые линии</li>
         <li class="delivery-companies">Автотрейдинг</li>
         <li class="delivery-companies">ЖелДорЭкспедиция</li>
       </ul>
-      <a class="button" href="more-info.html">Подробнее о компании</a>
+      <a class="more-info" href="more-info.html">Подробнее о компании</a>
     </section>
     <section>
-      <h2>Контакты</h2>
-      <p>ВЫ можете забрать товар сами,<br>
+      <h2 class="contacts">Контакты</h2>
+      <p class="contacts-text">ВЫ можете забрать товар сами,<br>
         заехав в наш офис:<br>
       </p>
       <div>
         <img src="img/map-place.jpg" alt="Расположение на карте">
       </div>
-      <button type="button">Заблудились? Напишите нам!</button>
+      <button class="help" type="button">Заблудились? Напишите нам!</button>
     </section>
   </main>
   <footer>
+    <div class="footer-block">
     <section>
       <h2>Доп. Информация о расположении и контакты</h2>
       <a href="index.html">
         <img src="img/svg-technomart/logo-technomart.svg" width="137" height="22" alt="Логотип магазина 'Техномарт'">
       </a>
-      <p>
+      <p class="adress-info">
         г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8<br>
         +7(812)555-05-55
       </p>
     </section>
     <nav>
-      <ul>
+      <ul class="bot-navigation list-style">
         <li><a href="company.html">Компания</a></li>
         <li><a href="news.html">Новости</a></li>
         <li><a href="catalogue.html">Каталог</a></li>
         <li><a href="delivery.html">Доставка</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
-      <ul>
+      <ul class="bot-navigation-yellow list-style">
         <li><a href="materials.html">Материалы</a></li>
         <li><a href="serviceability.html">Техника</a></li>
         <li><a href="tool.html">Инструмент</a></li>
         <li><a href="special-offer.html">Спецпредложения</a></li>
       </ul>
     </nav>
-    <div class="footer-copyright">
+  </div>
+    <div class="footer-copyright super-footer-block">
       ©2010-2017 Компания «Техномарт»<br>
       Все права защищены<br>
     </div>
     <div>
-      <ul>
+      <ul class="list-style">
         <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a class="social-button" href="#">Инстаграм</a></li>
       </ul>
     </div>
     <p>
-      <b>Обратная связь:</b>
-      <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-      <b>Разработано-</b>
-      <a href="https://htmlacademy.ru">htmlacademy.ru</a>
+      <b class="footer-details">Обратная связь:</b>
+      <a  class="answer" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      <b class="footer-details">Разработано-</b>
+      <a  class="answer" href="https://htmlacademy.ru">htmlacademy.ru</a>
     </p>
   </footer>
   <form action="#" method="post">
