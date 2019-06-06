@@ -5,16 +5,15 @@
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
   <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400italic,.." rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&a.." rel="stylesheet" type="text/css">
-<link href="css/normalize.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&a.." rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
+  <header class="header-color">
     <div class="top-block">
-      <nav class="top-navigation list-style">
+      <nav class="top-navigation">
         <a class="logo" href="index.html">
           <img src="img/svg-technomart/logo-technomart.svg" width="137" height="22" alt="Логотип магазина 'Техномарт'">
         </a>
@@ -22,10 +21,12 @@
           <input type="search" name="search" placeholder="Поиск:">
           <button type="submit"><img src="img/svg-technomart/icon-search.svg" alt="Поиск"></button>
         </form>
-        <ul>
+        <ul class="list-style">
           <li><a href="pin.html">Закладки</a></li>
           <li><a href="cart.html">Корзина</a></li>
-          <li><div class="order"><a href="order.html">Оформить заказ</a></div></li>
+          <li>
+            <a class="order" href="order.html">Оформить заказ</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -35,26 +36,26 @@
       и инструментов для ремонта<br>
     </p>
     <div>
-      <div class="phone">+78125550555</div><br>
-      <div class="adress">г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</div>
+      <p class="phone">+78125550555</p>
+      <p class="adress">г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
     </div>
-      <div>
-        <ul class="list-style">
-          <li class="log"><a class="log-block" href="enter.html">Войти</a></li>
-          <li class="reg"><a class="reg-block" href="registration.html">Регистрация</a></li>
-        </ul>
-      </div>
-      <nav class="midle-navigation">
-        <ul class="top-navigation list-style">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="company.html">Компания</a></li>
-          <li><a href="catalogue.html">Каталог</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="special-offer.html">Спецпредложения</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-      </nav>
+    <div>
+      <ul class="list-style">
+        <li class="log"><a class="log-block" href="enter.html">Войти</a></li>
+        <li class="reg"><a class="reg-block" href="registration.html">Регистрация</a></li>
+      </ul>
+    </div>
+    <nav class="midle-navigation">
+      <ul class="top-navigation list-style">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="company.html">Компания</a></li>
+        <li><a href="catalogue.html">Каталог</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="special-offer.html">Спецпредложения</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <section class="news">
@@ -144,7 +145,7 @@
   </form>
   <div>
     <button type="button"><img src="img/svg-technomart/icon-close.svg" alt="Закрыть"></button>
-      <img src="img/map-place.jpg" alt="Расположение на карте">
+    <img src="img/map-place.jpg" alt="Расположение на карте">
   </div>
 </body>
 
